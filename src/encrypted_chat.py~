@@ -82,7 +82,7 @@ def prompts():
 					print "Failed to connect to server to read messages."
 					print result
 			elif (cmd. startswith("send ")):
-				
+				print("Sending...")
 			else:
 				print("Invalid command: '" + cmd + "'.")
 		except KeyboardInterrupt:
